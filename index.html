@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form de Registro com validações em JS</title>
+  <link rel='stylesheet' type='text/css' href='style.css'>
+  <style>
+    /* Adicione o seguinte código CSS */
+    #numero-sorteio {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    #input-numero-sorteio {
+      text-align: center;
+      border: none;
+      background-color: transparent;
+      width: 100px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="main-container">
+    <h1>Descubra o ganhador do Sorteio</h1>
+<form id="register-form">
+    
+      <div class="full-box"></div>
+      <div class="full-box">
+        <input id="btn-submit" type="submit" value="Sortear">
+        <div id="numero-sorteio">
+          <input type="text" id="input-numero-sorteio" disabled>
+        </div>
+        <div id="numero-sorteado" class="sorteado">
+        </div>
+      </div>
+    </form>
+  </div>
+ <div id="user-info-container">
+  <p id="nome" class="user-info"></p>
+  <p id="sobrenome" class="user-info"></p>
+  <p id="email" class="user-info"></p>
+  <p id="telefone" class="user-info"></p>
+  <p id="numero" class="user-info"></p>
+</div>
+<script src='script.js'></script>
+</body>
+</html>
