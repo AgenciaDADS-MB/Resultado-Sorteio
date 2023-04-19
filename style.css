@@ -1,0 +1,90 @@
+/* geral */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  color: #FFF;
+  border: none;
+}
+input,
+label {
+  display: block;
+  outline: none;
+  width: 100%;
+}
+a {
+  color: #009BDB;
+}
+body {
+  padding-top: 5vh;
+  background-image: url('tete_page.jpg');
+  background-size: cover;
+  background-position-y: -top;
+}
+/* form */
+#main-container {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 230px;
+  background-color: #000;
+  border-radius: 10px;
+  padding: 25px;
+}
+#main-container h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 1.6rem;
+}
+form {
+    display:flex
+    flex-wrapwrap
+}
+.full-box {
+    flex:1
+    positionrelative
+}
+ input[type="submit"] {
+    background-color: #009BDB;
+    color: #000;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+ }
+#numero-sorteio {
+    position:absolute
+    top
+    right20
+    displayflex
+    justify-contentcenter
+    align-itemscenter
+    margin-top25pxs
+    margin-right20px
+}
+#input-numero-sorteio {
+    border:none
+    background-colortransparent
+    width100px
+    font-size28px
+    font-weightbold
+}
+
+/* Adicione o seguinte código CSS */
+#user-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+}
+
+.user-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.user-info label {
+  width: 100px;
+}
