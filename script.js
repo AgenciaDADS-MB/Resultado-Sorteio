@@ -20,8 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
     fetch('https://parseapi.back4app.com/classes/Person?count=1&limit=0', {
       headers: {
         'X-Parse-Application-Id': 'EPNZxMljhBADfJGjCjGs61CKJ2AAz0uFE5lq828e', 
-        'X-Parse-REST-API-Key': 'j8Gknt8SqbyXAOtcd7Qd13dvTROT12BOz3ybzg1F
-'
+        'X-Parse-REST-API-Key': 'j8Gknt8SqbyXAOtcd7Qd13dvTROT12BOz3ybzg1F'
       }
     })
     .then(response => response.json())
