@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
     event.preventDefault(); // evita que a página seja recarregada
 
     // Fazendo a requisição para obter o número total de linhas na tabela "Person"
-    fetch('https://parseapi.back4app.com/classes/Person?count=1&limit=0', {
+    fetch('https://parseapi.back4app.com/classes/Sorteio?count=1&limit=0', {
       headers: {
         'X-Parse-Application-Id': 'EPNZxMljhBADfJGjCjGs61CKJ2AAz0uFE5lq828e', 
         'X-Parse-REST-API-Key': 'j8Gknt8SqbyXAOtcd7Qd13dvTROT12BOz3ybzg1F'
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
       console.log('Linha aleatória gerada:', randomRow);
 
       // Fazendo a requisição para obter a linha aleatória da tabela "Person"
-      fetch(`https://parseapi.back4app.com/classes/Person?skip=${randomRow}&limit=1`, {
+      fetch(`https://parseapi.back4app.com/classes/Sorteio?skip=${randomRow}&limit=1`, {
         headers: {
           'X-Parse-Application-Id': 'EPNZxMljhBADfJGjCjGs61CKJ2AAz0uFE5lq828e', 
           'X-Parse-REST-API-Key': 'j8Gknt8SqbyXAOtcd7Qd13dvTROT12BOz3ybzg1F'
